@@ -88,11 +88,7 @@ else:
 
     result_df = pd.DataFrame(result)
 
-    st.dataframe(
-        result_df,
-        hide_index=True,
-        use_container_width=True
-    )
+    st.write(result_df)
 
     st.metric(
         "🔥 合計カロリー",
